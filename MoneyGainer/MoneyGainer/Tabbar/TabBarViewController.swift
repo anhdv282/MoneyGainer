@@ -31,7 +31,7 @@ class TabBarViewController: UIViewController {
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         
-        let availableIdentifiers = ["TransactionsVCIdentifier", "ReportVCIdentifier"]
+        let availableIdentifiers = ["TransactionsVCIdentifier", "ReportVCIdentifier", "PlanningVCIdentifier", "MoreVCIdentifier"]
         
         if(availableIdentifiers.contains(segue.identifier!)) {
             

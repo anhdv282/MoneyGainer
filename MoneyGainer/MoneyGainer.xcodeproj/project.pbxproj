@@ -7,33 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		041A2B731D86A0EA007AFA58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041A2B721D86A0EA007AFA58 /* AppDelegate.swift */; };
 		041A2B781D86A0EA007AFA58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041A2B761D86A0EA007AFA58 /* Main.storyboard */; };
 		041A2B7B1D86A0EA007AFA58 /* MoneyGainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 041A2B791D86A0EA007AFA58 /* MoneyGainer.xcdatamodeld */; };
 		041A2B7D1D86A0EA007AFA58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041A2B7C1D86A0EA007AFA58 /* Assets.xcassets */; };
 		041A2B801D86A0EA007AFA58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041A2B7E1D86A0EA007AFA58 /* LaunchScreen.storyboard */; };
-		041A2B8B1D86A387007AFA58 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041A2B8A1D86A387007AFA58 /* TabBarViewController.swift */; };
-		041A2B921D86B099007AFA58 /* TabBarNavigationSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041A2B911D86B099007AFA58 /* TabBarNavigationSegue.swift */; };
-		041A2B941D86B3EA007AFA58 /* PlanningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041A2B931D86B3EA007AFA58 /* PlanningViewController.swift */; };
-		041A2B961D86B3F6007AFA58 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041A2B951D86B3F6007AFA58 /* MoreViewController.swift */; };
-		041A2B981D86B405007AFA58 /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041A2B971D86B405007AFA58 /* ReportViewController.swift */; };
-		041A2B9A1D86B417007AFA58 /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041A2B991D86B417007AFA58 /* TransactionsViewController.swift */; };
+		0494539B1D87E90200F8C84A /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0494539A1D87E90200F8C84A /* MoreViewController.swift */; };
+		0494539D1D87E91600F8C84A /* PlanningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0494539C1D87E91600F8C84A /* PlanningViewController.swift */; };
+		0494539F1D87E92600F8C84A /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0494539E1D87E92600F8C84A /* ReportViewController.swift */; };
+		049453A21D87E94300F8C84A /* TabBarNavigationSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049453A01D87E94300F8C84A /* TabBarNavigationSegue.swift */; };
+		049453A31D87E94300F8C84A /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049453A11D87E94300F8C84A /* TabBarViewController.swift */; };
+		049453A71D87E94F00F8C84A /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049453A51D87E94F00F8C84A /* TransactionsViewController.swift */; };
+		049453A91D87E96900F8C84A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049453A81D87E96900F8C84A /* AppDelegate.swift */; };
+		049453AD1D87EA6900F8C84A /* AddTransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049453AC1D87EA6900F8C84A /* AddTransactionViewController.swift */; };
+		049453BB1D87F44200F8C84A /* AmountTransactionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049453B71D87F44200F8C84A /* AmountTransactionTableViewCell.swift */; };
+		049453BC1D87F44200F8C84A /* AmountTransactionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 049453B81D87F44200F8C84A /* AmountTransactionTableViewCell.xib */; };
+		049453BD1D87F44200F8C84A /* NormalTransactionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049453B91D87F44200F8C84A /* NormalTransactionTableViewCell.swift */; };
+		049453BE1D87F44200F8C84A /* NormalTransactionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 049453BA1D87F44200F8C84A /* NormalTransactionTableViewCell.xib */; };
+		049453C11D87F52B00F8C84A /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049453BF1D87F52B00F8C84A /* CategoryTableViewCell.swift */; };
+		049453C21D87F52B00F8C84A /* CategoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 049453C01D87F52B00F8C84A /* CategoryTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		041A2B6F1D86A0EA007AFA58 /* MoneyGainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyGainer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		041A2B721D86A0EA007AFA58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		041A2B771D86A0EA007AFA58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		041A2B7A1D86A0EA007AFA58 /* MoneyGainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MoneyGainer.xcdatamodel; sourceTree = "<group>"; };
 		041A2B7C1D86A0EA007AFA58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		041A2B7F1D86A0EA007AFA58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		041A2B811D86A0EA007AFA58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		041A2B8A1D86A387007AFA58 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
-		041A2B911D86B099007AFA58 /* TabBarNavigationSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarNavigationSegue.swift; sourceTree = "<group>"; };
-		041A2B931D86B3EA007AFA58 /* PlanningViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanningViewController.swift; sourceTree = "<group>"; };
-		041A2B951D86B3F6007AFA58 /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
-		041A2B971D86B405007AFA58 /* ReportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportViewController.swift; sourceTree = "<group>"; };
-		041A2B991D86B417007AFA58 /* TransactionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionsViewController.swift; sourceTree = "<group>"; };
+		0494539A1D87E90200F8C84A /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MoreViewController.swift; path = More/MoreViewController.swift; sourceTree = "<group>"; };
+		0494539C1D87E91600F8C84A /* PlanningViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlanningViewController.swift; path = Planning/PlanningViewController.swift; sourceTree = "<group>"; };
+		0494539E1D87E92600F8C84A /* ReportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReportViewController.swift; path = Report/ReportViewController.swift; sourceTree = "<group>"; };
+		049453A01D87E94300F8C84A /* TabBarNavigationSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabBarNavigationSegue.swift; path = Tabbar/TabBarNavigationSegue.swift; sourceTree = "<group>"; };
+		049453A11D87E94300F8C84A /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabBarViewController.swift; path = Tabbar/TabBarViewController.swift; sourceTree = "<group>"; };
+		049453A51D87E94F00F8C84A /* TransactionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TransactionsViewController.swift; path = Transactions/TransactionsViewController.swift; sourceTree = "<group>"; };
+		049453A81D87E96900F8C84A /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Application/AppDelegate.swift; sourceTree = "<group>"; };
+		049453AC1D87EA6900F8C84A /* AddTransactionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddTransactionViewController.swift; path = Transactions/Add/AddTransactionViewController.swift; sourceTree = "<group>"; };
+		049453B71D87F44200F8C84A /* AmountTransactionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AmountTransactionTableViewCell.swift; path = Transactions/Add/Cell/AmountTransactionTableViewCell.swift; sourceTree = "<group>"; };
+		049453B81D87F44200F8C84A /* AmountTransactionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AmountTransactionTableViewCell.xib; path = Transactions/Add/Cell/AmountTransactionTableViewCell.xib; sourceTree = "<group>"; };
+		049453B91D87F44200F8C84A /* NormalTransactionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NormalTransactionTableViewCell.swift; path = Transactions/Add/Cell/NormalTransactionTableViewCell.swift; sourceTree = "<group>"; };
+		049453BA1D87F44200F8C84A /* NormalTransactionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NormalTransactionTableViewCell.xib; path = Transactions/Add/Cell/NormalTransactionTableViewCell.xib; sourceTree = "<group>"; };
+		049453BF1D87F52B00F8C84A /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
+		049453C01D87F52B00F8C84A /* CategoryTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoryTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +94,7 @@
 		041A2B871D86A10C007AFA58 /* Application */ = {
 			isa = PBXGroup;
 			children = (
-				041A2B721D86A0EA007AFA58 /* AppDelegate.swift */,
+				049453A81D87E96900F8C84A /* AppDelegate.swift */,
 			);
 			name = Application;
 			sourceTree = "<group>";
@@ -108,7 +122,8 @@
 		041A2B8C1D86A778007AFA58 /* Transactions */ = {
 			isa = PBXGroup;
 			children = (
-				041A2B991D86B417007AFA58 /* TransactionsViewController.swift */,
+				049453AB1D87EA3C00F8C84A /* Add */,
+				049453A51D87E94F00F8C84A /* TransactionsViewController.swift */,
 			);
 			name = Transactions;
 			sourceTree = "<group>";
@@ -116,7 +131,7 @@
 		041A2B8D1D86A78A007AFA58 /* Report */ = {
 			isa = PBXGroup;
 			children = (
-				041A2B971D86B405007AFA58 /* ReportViewController.swift */,
+				0494539E1D87E92600F8C84A /* ReportViewController.swift */,
 			);
 			name = Report;
 			sourceTree = "<group>";
@@ -124,7 +139,7 @@
 		041A2B8E1D86A792007AFA58 /* Planning */ = {
 			isa = PBXGroup;
 			children = (
-				041A2B931D86B3EA007AFA58 /* PlanningViewController.swift */,
+				0494539C1D87E91600F8C84A /* PlanningViewController.swift */,
 			);
 			name = Planning;
 			sourceTree = "<group>";
@@ -132,7 +147,7 @@
 		041A2B8F1D86A79C007AFA58 /* More */ = {
 			isa = PBXGroup;
 			children = (
-				041A2B951D86B3F6007AFA58 /* MoreViewController.swift */,
+				0494539A1D87E90200F8C84A /* MoreViewController.swift */,
 			);
 			name = More;
 			sourceTree = "<group>";
@@ -140,10 +155,32 @@
 		041A2B901D86B012007AFA58 /* Tabbar */ = {
 			isa = PBXGroup;
 			children = (
-				041A2B8A1D86A387007AFA58 /* TabBarViewController.swift */,
-				041A2B911D86B099007AFA58 /* TabBarNavigationSegue.swift */,
+				049453A01D87E94300F8C84A /* TabBarNavigationSegue.swift */,
+				049453A11D87E94300F8C84A /* TabBarViewController.swift */,
 			);
 			name = Tabbar;
+			sourceTree = "<group>";
+		};
+		049453AB1D87EA3C00F8C84A /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				049453AE1D87EE9800F8C84A /* Cell */,
+				049453AC1D87EA6900F8C84A /* AddTransactionViewController.swift */,
+			);
+			name = Add;
+			sourceTree = "<group>";
+		};
+		049453AE1D87EE9800F8C84A /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				049453B71D87F44200F8C84A /* AmountTransactionTableViewCell.swift */,
+				049453B81D87F44200F8C84A /* AmountTransactionTableViewCell.xib */,
+				049453B91D87F44200F8C84A /* NormalTransactionTableViewCell.swift */,
+				049453BA1D87F44200F8C84A /* NormalTransactionTableViewCell.xib */,
+				049453BF1D87F52B00F8C84A /* CategoryTableViewCell.swift */,
+				049453C01D87F52B00F8C84A /* CategoryTableViewCell.xib */,
+			);
+			name = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,9 +241,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				049453BC1D87F44200F8C84A /* AmountTransactionTableViewCell.xib in Resources */,
 				041A2B801D86A0EA007AFA58 /* LaunchScreen.storyboard in Resources */,
 				041A2B7D1D86A0EA007AFA58 /* Assets.xcassets in Resources */,
+				049453C21D87F52B00F8C84A /* CategoryTableViewCell.xib in Resources */,
 				041A2B781D86A0EA007AFA58 /* Main.storyboard in Resources */,
+				049453BE1D87F44200F8C84A /* NormalTransactionTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,14 +257,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				041A2B731D86A0EA007AFA58 /* AppDelegate.swift in Sources */,
-				041A2B8B1D86A387007AFA58 /* TabBarViewController.swift in Sources */,
+				049453A21D87E94300F8C84A /* TabBarNavigationSegue.swift in Sources */,
 				041A2B7B1D86A0EA007AFA58 /* MoneyGainer.xcdatamodeld in Sources */,
-				041A2B961D86B3F6007AFA58 /* MoreViewController.swift in Sources */,
-				041A2B921D86B099007AFA58 /* TabBarNavigationSegue.swift in Sources */,
-				041A2B941D86B3EA007AFA58 /* PlanningViewController.swift in Sources */,
-				041A2B9A1D86B417007AFA58 /* TransactionsViewController.swift in Sources */,
-				041A2B981D86B405007AFA58 /* ReportViewController.swift in Sources */,
+				0494539B1D87E90200F8C84A /* MoreViewController.swift in Sources */,
+				049453A91D87E96900F8C84A /* AppDelegate.swift in Sources */,
+				049453BB1D87F44200F8C84A /* AmountTransactionTableViewCell.swift in Sources */,
+				049453BD1D87F44200F8C84A /* NormalTransactionTableViewCell.swift in Sources */,
+				0494539F1D87E92600F8C84A /* ReportViewController.swift in Sources */,
+				049453A31D87E94300F8C84A /* TabBarViewController.swift in Sources */,
+				049453AD1D87EA6900F8C84A /* AddTransactionViewController.swift in Sources */,
+				049453A71D87E94F00F8C84A /* TransactionsViewController.swift in Sources */,
+				0494539D1D87E91600F8C84A /* PlanningViewController.swift in Sources */,
+				049453C11D87F52B00F8C84A /* CategoryTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +422,7 @@
 				041A2B861D86A0EA007AFA58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
