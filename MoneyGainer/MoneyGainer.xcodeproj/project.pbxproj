@@ -8,22 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		041A2B731D86A0EA007AFA58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041A2B721D86A0EA007AFA58 /* AppDelegate.swift */; };
-		041A2B751D86A0EA007AFA58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041A2B741D86A0EA007AFA58 /* ViewController.swift */; };
 		041A2B781D86A0EA007AFA58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041A2B761D86A0EA007AFA58 /* Main.storyboard */; };
 		041A2B7B1D86A0EA007AFA58 /* MoneyGainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 041A2B791D86A0EA007AFA58 /* MoneyGainer.xcdatamodeld */; };
 		041A2B7D1D86A0EA007AFA58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041A2B7C1D86A0EA007AFA58 /* Assets.xcassets */; };
 		041A2B801D86A0EA007AFA58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041A2B7E1D86A0EA007AFA58 /* LaunchScreen.storyboard */; };
+		041A2B8B1D86A387007AFA58 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041A2B8A1D86A387007AFA58 /* TabBarViewController.swift */; };
+		041A2B921D86B099007AFA58 /* TabBarNavigationSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041A2B911D86B099007AFA58 /* TabBarNavigationSegue.swift */; };
+		041A2B941D86B3EA007AFA58 /* PlanningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041A2B931D86B3EA007AFA58 /* PlanningViewController.swift */; };
+		041A2B961D86B3F6007AFA58 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041A2B951D86B3F6007AFA58 /* MoreViewController.swift */; };
+		041A2B981D86B405007AFA58 /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041A2B971D86B405007AFA58 /* ReportViewController.swift */; };
+		041A2B9A1D86B417007AFA58 /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041A2B991D86B417007AFA58 /* TransactionsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		041A2B6F1D86A0EA007AFA58 /* MoneyGainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyGainer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		041A2B721D86A0EA007AFA58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		041A2B741D86A0EA007AFA58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		041A2B771D86A0EA007AFA58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		041A2B7A1D86A0EA007AFA58 /* MoneyGainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MoneyGainer.xcdatamodel; sourceTree = "<group>"; };
 		041A2B7C1D86A0EA007AFA58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		041A2B7F1D86A0EA007AFA58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		041A2B811D86A0EA007AFA58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		041A2B8A1D86A387007AFA58 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		041A2B911D86B099007AFA58 /* TabBarNavigationSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarNavigationSegue.swift; sourceTree = "<group>"; };
+		041A2B931D86B3EA007AFA58 /* PlanningViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanningViewController.swift; sourceTree = "<group>"; };
+		041A2B951D86B3F6007AFA58 /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		041A2B971D86B405007AFA58 /* ReportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportViewController.swift; sourceTree = "<group>"; };
+		041A2B991D86B417007AFA58 /* TransactionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +88,11 @@
 		041A2B881D86A11A007AFA58 /* View Controller */ = {
 			isa = PBXGroup;
 			children = (
-				041A2B741D86A0EA007AFA58 /* ViewController.swift */,
+				041A2B901D86B012007AFA58 /* Tabbar */,
+				041A2B8F1D86A79C007AFA58 /* More */,
+				041A2B8E1D86A792007AFA58 /* Planning */,
+				041A2B8D1D86A78A007AFA58 /* Report */,
+				041A2B8C1D86A778007AFA58 /* Transactions */,
 			);
 			name = "View Controller";
 			sourceTree = "<group>";
@@ -89,6 +103,47 @@
 				041A2B7C1D86A0EA007AFA58 /* Assets.xcassets */,
 			);
 			name = Resouces;
+			sourceTree = "<group>";
+		};
+		041A2B8C1D86A778007AFA58 /* Transactions */ = {
+			isa = PBXGroup;
+			children = (
+				041A2B991D86B417007AFA58 /* TransactionsViewController.swift */,
+			);
+			name = Transactions;
+			sourceTree = "<group>";
+		};
+		041A2B8D1D86A78A007AFA58 /* Report */ = {
+			isa = PBXGroup;
+			children = (
+				041A2B971D86B405007AFA58 /* ReportViewController.swift */,
+			);
+			name = Report;
+			sourceTree = "<group>";
+		};
+		041A2B8E1D86A792007AFA58 /* Planning */ = {
+			isa = PBXGroup;
+			children = (
+				041A2B931D86B3EA007AFA58 /* PlanningViewController.swift */,
+			);
+			name = Planning;
+			sourceTree = "<group>";
+		};
+		041A2B8F1D86A79C007AFA58 /* More */ = {
+			isa = PBXGroup;
+			children = (
+				041A2B951D86B3F6007AFA58 /* MoreViewController.swift */,
+			);
+			name = More;
+			sourceTree = "<group>";
+		};
+		041A2B901D86B012007AFA58 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				041A2B8A1D86A387007AFA58 /* TabBarViewController.swift */,
+				041A2B911D86B099007AFA58 /* TabBarNavigationSegue.swift */,
+			);
+			name = Tabbar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,9 +217,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				041A2B751D86A0EA007AFA58 /* ViewController.swift in Sources */,
 				041A2B731D86A0EA007AFA58 /* AppDelegate.swift in Sources */,
+				041A2B8B1D86A387007AFA58 /* TabBarViewController.swift in Sources */,
 				041A2B7B1D86A0EA007AFA58 /* MoneyGainer.xcdatamodeld in Sources */,
+				041A2B961D86B3F6007AFA58 /* MoreViewController.swift in Sources */,
+				041A2B921D86B099007AFA58 /* TabBarNavigationSegue.swift in Sources */,
+				041A2B941D86B3EA007AFA58 /* PlanningViewController.swift in Sources */,
+				041A2B9A1D86B417007AFA58 /* TransactionsViewController.swift in Sources */,
+				041A2B981D86B405007AFA58 /* ReportViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +340,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MoneyGainer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vietanh.MoneyGainer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -291,6 +352,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MoneyGainer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vietanh.MoneyGainer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
